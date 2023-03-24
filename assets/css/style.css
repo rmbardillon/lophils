@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.modal-dialog {
+  max-width: 670px; 
+  margin: 1.75rem auto; 
+}
+
+#article-modal-content {
+    padding: 10px 10px 50px 10px;
+    border-style: dotted;
+}
+
+.no-divider {
+  border-bottom: none;
+  background-color: white;
+}
+
+.card {
+    padding: 20px;
+}
+
+#article {
+    padding: 15px 0 15px 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+    background-color: rgb(236, 234, 234);
+}
+
+.col-1 {
+  display: flex;
+  align-items: flex-start;
+  width: fit-content;
+}
